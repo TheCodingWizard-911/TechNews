@@ -8,9 +8,6 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
-  side: {
-    position: "absolute",
-  },
 }));
 
 const Layout = ({ children }) => {
@@ -23,7 +20,7 @@ const Layout = ({ children }) => {
         <Grid item xs={12} sm={9}>
           {children}
         </Grid>
-        <Grid item xs={12} sm={3} className={classes.side}>
+        <Grid item xs={12} sm={3}>
           <p>Tech News Side Bar</p>
         </Grid>
       </Grid>
