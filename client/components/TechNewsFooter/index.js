@@ -13,13 +13,10 @@ const useStyles = makeStyles((theme) => ({
   footer: {
     flexGrow: 1,
     width: "100%",
-    position: "sticky",
+    position: "static",
     bottom: 0,
     padding: theme.spacing(2, 1),
     backgroundColor: "lightgreen",
-    [theme.breakpoints.down("xs")]: {
-      position: "static",
-    },
   },
   title: {
     fontSize: 26,
