@@ -89,30 +89,42 @@ const TechNewsFooter = () => {
           <div className={classes.links}>
             <div className={classes.follow}>Follow us on</div>
             <div>
-              <IconButton
-                edge="start"
-                className={classes.socialButton}
-                color="inherit"
-                aria-label="Instagram"
-              >
-                <Instagram />
-              </IconButton>
-              <IconButton
-                edge="start"
-                className={classes.socialButton}
-                color="inherit"
-                aria-label="You Tube"
-              >
-                <YouTube />
-              </IconButton>
-              <IconButton
-                edge="start"
-                className={classes.socialButton}
-                color="inherit"
-                aria-label="Twitter"
-              >
-                <Twitter />
-              </IconButton>
+              <Link href="https://www.instagram.com/learnwithengineers">
+                <a className={classes.link} target="_blank">
+                  <IconButton
+                    edge="start"
+                    className={classes.socialButton}
+                    color="inherit"
+                    aria-label="Instagram"
+                  >
+                    <Instagram />
+                  </IconButton>
+                </a>
+              </Link>
+              <Link href="https://www.youtube.com/channel/UCMMl9s8KU6pyc5zdhL6r-Kw">
+                <a className={classes.link} target="_blank">
+                  <IconButton
+                    edge="start"
+                    className={classes.socialButton}
+                    color="inherit"
+                    aria-label="You Tube"
+                  >
+                    <YouTube />
+                  </IconButton>
+                </a>
+              </Link>
+              <Link href="https://www.instagram.com/learnwithengineers">
+                <a className={classes.link} target="_blank">
+                  <IconButton
+                    edge="start"
+                    className={classes.socialButton}
+                    color="inherit"
+                    aria-label="Twitter"
+                  >
+                    <Twitter />
+                  </IconButton>
+                </a>
+              </Link>
             </div>
           </div>
         </Grid>

@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(0, 1),
   },
   mainContent: {
-    height: "100vh",
+    height: "100%",
     padding: theme.spacing(2, 1),
   },
   card: {
